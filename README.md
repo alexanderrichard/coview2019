@@ -4,7 +4,7 @@ Data (precomputed features) can be downloaded from
 
 Code requires Pytorch 0.4
 
-In order to run training, execute train.py
+In order to run training, adjust the location of your training data in line 17 of train.py and execute train.py
 
 Note that we used eval.py only for quick internal evaluation. The results are correlated with the official Thumos evaluation tool but not equal.
 Use the official tool to generate the numbers reported in the paper:
